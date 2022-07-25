@@ -1,11 +1,15 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Three from "../components/three";
+import Link from "next/link";
 
 
 export default function Home() {
     return (
         <>
+            <Link href="/section11">
+                particle
+            </Link>
             <Three />
         </>
         // <div className={styles.container}>
