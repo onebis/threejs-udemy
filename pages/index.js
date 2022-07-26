@@ -2,14 +2,28 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Three from "../components/three";
 import Link from "next/link";
+import {Box, Container, Stack, Text} from "@chakra-ui/react";
 
 
 export default function Home() {
     return (
         <>
-            <Link href="/section11">
-                particle
-            </Link>
+            <Box as="main" padding={8}>
+                <Container
+                    w="100%"
+                    align="center"
+                    justifyContent="space-between"
+                    display="flex"
+                >
+                    <Link href="/section11">
+                        particle
+                    </Link>
+                    <Link href="/section12">
+                        modern 3D web site
+                    </Link>
+                </Container>
+            </Box>
+
             <Three />
         </>
         // <div className={styles.container}>
