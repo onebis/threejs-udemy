@@ -21,6 +21,9 @@ export default function Home() {
                     <Link href="/section12">
                         modern 3D web site
                     </Link>
+                    <Link href="/section13">
+                        web site
+                    </Link>
                 </Container>
             </Box>
 
