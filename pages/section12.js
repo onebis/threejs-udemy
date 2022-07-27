@@ -44,6 +44,11 @@ export default function Section12() {
                     </Box>
                 </Container>
             </Box>
+            <style jsx>{`
+              main {
+                  overflow: hidden;
+              }
+            `}</style>
         </>
     )
 }
