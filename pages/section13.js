@@ -18,7 +18,7 @@ export default function Section13() {
                 <meta name="author" content="minoru horiuchi"/>
                 <title>Minoru Hriuchi - Homepage</title>
             </Head>
-
+            <LoadWeb13/>
             <Box
                 as="main"
                 width={"100vw"}
@@ -28,8 +28,9 @@ export default function Section13() {
                 textAlign="center"
                 fontSize="4rem"
                 mt="70px"
+                position="absolute"
+                color="white"
             >
-                {/*<LoadWeb13/>*/}
                 <Heading as="h1">
                     Portfolio
                 </Heading>
